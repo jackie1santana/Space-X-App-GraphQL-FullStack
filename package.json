@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "server":"concurrently \"npm run dev\" \"npm run client\""
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +18,7 @@
     "graphql": "^14.6.0"
   },
   "devDependencies": {
+    "concurrently": "^5.1.0",
     "nodemon": "^2.0.2"
   }
 }
