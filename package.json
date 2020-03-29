@@ -7,12 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
     "client": "npm start --prefix client",
-    "server":"concurrently \"npm run dev\" \"npm run client\""
+    "server": "concurrently \"npm run dev\" \"npm run client\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-graphql": "^0.9.0",
     "graphql": "^14.6.0"
