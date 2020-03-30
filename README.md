@@ -15,3 +15,7 @@ wrap the main component in this & pass in the client
 `import {ApolloProvider} from 'react-apollo'`
 
 `import gql from 'graphql-tag'` parses the graphql query into javascript to fetch
+
+Also i'm using `npm i classnames` to implement classes via JS & `moment react-moment` installed in client packages.json
+
+Using `react-router-dom`
