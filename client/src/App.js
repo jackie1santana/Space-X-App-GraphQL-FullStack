@@ -10,7 +10,7 @@ import './App.css';
 
 // wrap the main component in this & pass in the client
 const client = new ApolloClient({
-  uri: 'http://localhost:5000/graphql'
+  uri: '/graphql'
 })
 
 function App() {
