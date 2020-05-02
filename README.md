@@ -1,4 +1,7 @@
-# Node.js-React-GraphQL-Apollo-Template
+# Developer Notes
+
+### This is a React App that uses GraphQL to query Elon Musk's `Space X` api for `Rocket Types & Real Time Rocket Launch Data`
+
 run `npm run server` runs both express and react server via concurrently
 
 ### React theme is by bootswatch
